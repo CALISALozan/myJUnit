@@ -38,7 +38,7 @@ public class C04_WebTables extends TestBase {
 
             System.out.println(eachRow.getText());
         }
-     /*   //6. Web table’daki sutun sayisinin 13 olduğunu test edin
+       //6. Web table’daki sutun sayisinin 13 olduğunu test edin
 
         List<WebElement> ucuncuSatirSutunListesi=driver.findElements(By.xpath("//tbody/tr[3]/td"));
         Assert.assertEquals(13,ucuncuSatirSutunListesi.size());
@@ -74,7 +74,7 @@ public class C04_WebTables extends TestBase {
 
         return istenenElement;
 
-      */
+
     }
 
 
