@@ -51,6 +51,7 @@ public class C04_IFrame {
 
         driver.switchTo().frame(iframeWebElementi);
 
+
         WebElement yaziKutuElementi= driver.findElement(By.xpath("//body[@id='tinymce']"));
         yaziKutuElementi.clear();
         yaziKutuElementi.sendKeys("Merhaba Dunya!");
